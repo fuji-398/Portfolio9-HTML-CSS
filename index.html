@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="robots" content="noindex , nofollow" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Electric Commerce Test</title>
+        <meta name="description" content="electric-commerce-training-site" />
+        <link rel="icon" href="img/favicon.ico" />
+
+        <!-- CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!-- Reference Site(参考サイト)　https://code-jump.com/ec-menu/　-->
+
+        <!--
+        <meta property="og:url" content="http://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="title">
+        <meta property="og:description" content="text">
+        <meta property="og:image" content="http://">
+        -->
+    </head>
+
+    <body>
+        <header id="header" class="wrapper1000">
+            <div class="wrapper800 grid-header">
+                <a class="logo" href="index.html"><img src="img/logo.svg" alt="TOTALLY" /></a>
+                <nav class="nav">
+                    <ul class="link">
+                        <li><a href="#">ALL</a></li>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">VINTAGE</a></li>
+                        <li><a href="#">CATEGORY</a></li>
+                        <li><a href="#">LOOKBOOK</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                    <ul class="login">
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="wrapper800 grid-main">
+                <img class="item-img" src="img/item.jpg" />
+                <h1 class="item-title">TOTALLY Short Sleeve Shirt</h1>
+                <p class="item-description">
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p class="item-price">￥9,999 +tax</p>
+
+                <form class="order" action="*" method="post">
+                    <table class="order-table">
+                        <tr>
+                            <th class="color">Color</th>
+                            <th class="size">Size</th>
+                            <th class="quantity"></th>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td><label for="quantity_s">S</label></td>
+                            <td>
+                                <select name="quantity_s" id="quantity_s">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td><label for="quantity_m">M</label></td>
+                            <td>
+                                <select name="quantity_m" id="quantity_m">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td><label for="quantity_l">L</label></td>
+                            <td>
+                                <select name="quantity_l" id="quantity_l">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button class="button" type="submit">ADD TO CART</button>
+                </form>
+
+                <table class="size-table-position size-table">
+                    <thead>
+                        <tr>
+                            <th class="size">Size</th>
+                            <th class="chest">Chest</th>
+                            <th class="weist">Weist</th>
+                            <th class="height">Height</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>S</th>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                        <tr>
+                            <th>M</th>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                        <tr>
+                            <th>L</th>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <p>&copy; TOTALLY</p>
+        </footer>
+    </body>
+</html>
